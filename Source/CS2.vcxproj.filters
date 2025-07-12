@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="OsImgui">
+      <UniqueIdentifier>{526c525a-493f-4cfe-8b8d-fe29b2e94016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OsImgui\Imgui">
+      <UniqueIdentifier>{35b85320-06f8-416b-aac2-ae7bb29a3764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minhook">
+      <UniqueIdentifier>{3822f28b-10ac-4a57-bddd-2d9f26d263f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_demo.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_draw.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_impl_dx9.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_impl_dx11.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_impl_win32.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_tables.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\imgui\imgui_widgets.cpp">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\OS-ImGui.cpp">
+      <Filter>OsImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\OS-ImGui_Base.cpp">
+      <Filter>OsImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\OS-ImGui_External.cpp">
+      <Filter>OsImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\OS-ImGui\OS-ImGui_Internal.cpp">
+      <Filter>OsImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\Minhook\buffer.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\Minhook\hde32.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\Minhook\hde64.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\Minhook\hook.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ext\Minhook\trampoline.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imconfig.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imgui.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imgui_impl_dx9.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imgui_impl_dx11.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imgui_impl_win32.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imgui_internal.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imstb_rectpack.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imstb_textedit.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\imgui\imstb_truetype.h">
+      <Filter>OsImgui\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui.h">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui_Base.h">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui_Exception.hpp">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui_External.h">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui_Internal.h">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\OS-ImGui\OS-ImGui_Struct.h">
+      <Filter>OsImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\buffer.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\hde32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\hde64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\MinHook.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\pstdint.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\table32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\table64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ext\Minhook\trampoline.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CS2Monitor.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleMenu.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Ext\Minhook\MinHook.def">
+      <Filter>Minhook</Filter>
+    </None>
+  </ItemGroup>
+</Project>
