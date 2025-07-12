@@ -1,5 +1,5 @@
 
-# <p align="center">CS2 Imgui Menu</p>
+# <p align="center">CS2 Imgui Menu Overlay</p>
   
 This project is a simple overlay application using OsImGui to display an interactive menu in Counter-Strike 2.
 It allows you to show a configurable menu directly inside the game and automatically closes when the CS2 window is closed.
