@@ -6,6 +6,7 @@ It allows you to show a configurable menu directly inside the game and automatic
       <p align="center">
   <img src="https://github.com/Yhzan95/CS2-Imgui-Menu/blob/main/Menu.png" width="500" style="border: 1px solid #000;"/>
 </p>
+
 ## 🧐 Features    
 - Fully configurable Imgui menu
 - Close automatically when cs2 shutdown
@@ -15,6 +16,7 @@ It allows you to show a configurable menu directly inside the game and automatic
 ```bash
 Net Framework v4.7.2
 ```
+
 🧑🏻‍💻 Usage
 ```js
 1) Open Cs2.Exe
