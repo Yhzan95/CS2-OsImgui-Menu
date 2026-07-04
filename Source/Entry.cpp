@@ -2,14 +2,14 @@
 #include "../Ext/OS-ImGui/OS-ImGui.h"
 #include "Render.h"
 #include "ToggleMenu.h"
-#include "CS2Monitor.h" // ← Ici on inclut
+#include "CS2Monitor.h"
 
 int main()
 {
     try {
-        StartToggleThread();     // Pour toggle HOME
-        MonitorCS2WindowThread(); // Pour quitter quand CS2 ferme
-
+        StartToggleThread();
+        MonitorCS2WindowThread();
+        
         Gui.AttachAnotherWindow("Counter-Strike 2", "", DrawCallBack);
     }
     catch (OSImGui::OSException& e)
