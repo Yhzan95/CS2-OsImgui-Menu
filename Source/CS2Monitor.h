@@ -11,7 +11,7 @@ inline void MonitorCS2Window()
         HWND hwnd = FindWindowA(NULL, "Counter-Strike 2");
         if (!hwnd)
         {
-            // CS2 fermé ou crashé -> quitter
+            // If cs2 closed or crashed exit thread
             exit(0);
         }
         std::this_thread::sleep_for(std::chrono::seconds(1));
