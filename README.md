@@ -27,9 +27,8 @@ Net Framework v4.7.2
 ## ⚖️ Disclaimer
 > ⚠️ This project is intended for educational and research purposes only. Do **not** use it on VAC-secured or official servers, as doing so may result in a permanent ban.
 ## 🙇 Acknowledgements      
-- [Imgui](https://github.com/ocornut/imgui)
+- [Minhook](https://github.com/tsudakageyu/minhook)
 - [OsImgui](https://github.com/TKazer/OS-ImGui)
-- [Awesome README](https://readmi.xyz/editor)
 
 ## 🍰 Contributing    
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** and help me too to improve my code.
