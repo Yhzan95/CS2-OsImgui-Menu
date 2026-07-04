@@ -3,8 +3,9 @@
 #include <chrono>
 #include <Windows.h>
 #include "Render.h"
-bool menuOpen = true; //
+bool menuOpen = true;
 
+// Toggle Thread
 inline void ToggleMenuThread()
 {
     static std::chrono::time_point LastTimePoint = std::chrono::steady_clock::now();
@@ -24,6 +25,7 @@ inline void ToggleMenuThread()
     }
 }
 
+// Toggle Start
 inline void StartToggleThread()
 {
     std::thread toggleThread(ToggleMenuThread);
