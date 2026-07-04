@@ -24,7 +24,8 @@ Net Framework v4.7.2
 3) Menu will pop automatically, Press Insert for toggle On/Off
 4) Profit
 ```
-
+## ⚖️ Disclaimer
+> ⚠️ This project is intended for educational and research purposes only. Do **not** use it on VAC-secured or official servers, as doing so may result in a permanent ban.
 ## 🙇 Acknowledgements      
 - [Imgui](https://github.com/ocornut/imgui)
 - [OsImgui](https://github.com/TKazer/OS-ImGui)
